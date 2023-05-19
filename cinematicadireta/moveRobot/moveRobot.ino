@@ -40,6 +40,7 @@ void loop() {
       stepper2.run();
     }
 
+    delay(3000);
     stepper1.moveTo(0);
     stepper2.moveTo(0);
 
